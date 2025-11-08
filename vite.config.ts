@@ -4,8 +4,12 @@ import {type ManifestOptions, VitePWA} from "vite-plugin-pwa";
 
 
 const manifest: Partial<ManifestOptions> | false = {
-  "theme_color":"#8936FF",
-  "background_color":"#2EC6FE",
+  "orientation":"any",
+  "display":"standalone",
+  "lang":"ru-RU",
+  "name":"Fitness App",
+  "theme_color":"#10100f",
+  "background_color":"#85e8c2",
   "icons":[
     {
       "purpose":"maskable",
@@ -32,11 +36,7 @@ const manifest: Partial<ManifestOptions> | false = {
       sizes: "401x794",
       form_factor: 'narrow',
     },
-  ],
-  "orientation":"any",
-  "display":"standalone",
-  "lang":"ru-RU",
-  "name":"Fitness App"};
+  ],};
 
 export default defineConfig({
   plugins: [
