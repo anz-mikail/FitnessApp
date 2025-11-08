@@ -15,6 +15,7 @@
       "type":"image/png"
     }],
   "orientation":"any",
+  "start_url": "/index.html",
   "display":"standalone",
   "dir":"auto",
   "lang":"ru-RU",
