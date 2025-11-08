@@ -44,7 +44,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       workbox: {globPatterns: ["**/*.{js,ts,tsx, html, css, ico, png, svg}"],},
-      manifest : manifest,
+      manifest: manifest,
     })
   ],
 })
