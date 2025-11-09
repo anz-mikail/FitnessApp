@@ -17,7 +17,7 @@ function App() {
                     Установить приложение
                 </button>
             )}
-            <h1>PWA приложение test44</h1>
+            <h1>PWA приложение test55</h1>
             <button onClick={clickUp}>+</button>
             {counter}
             <button onClick={clickDown}>-</button>
