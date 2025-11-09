@@ -15,9 +15,9 @@
       "type":"image/png"
     }],
   "orientation":"any",
-  "start_url": "/index.html",
   "display":"standalone",
   "dir":"auto",
   "lang":"ru-RU",
-  "name":"Fitness App"
+  "name":"Fitness App",
+  "start_url": "/index.html"
 }
