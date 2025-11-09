@@ -5,14 +5,11 @@ import './App.css'
 
 function App() {
     const { installPrompt, handleInstallClick } = usePWAInstall();
-    // @ts-ignore
     const [counter, setCounter] = useState<number>(0);
-    const clickUp = () => {
-        setCounter(counter+1)
-    }
-    const clickDown = () => {
-        setCounter(counter-1)
-    }
+
+    const clickUp = () => {setCounter(counter+1)};
+    const clickDown = () => {setCounter(counter-1)};
+
     return (
         <div>
             {installPrompt && (
@@ -25,8 +22,8 @@ function App() {
             {counter}
             <button onClick={clickDown}>-</button>
         </div>
-    )
+    );
 }
 
 
-export default App
+export default App;

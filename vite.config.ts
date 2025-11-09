@@ -3,9 +3,6 @@ import react from '@vitejs/plugin-react'
 import {type ManifestOptions, VitePWA} from "vite-plugin-pwa";
 
 
-// import { VitePWA } from "vite-plugin-pwa";
-
-
 const manifest: Partial<ManifestOptions> | false = {
   "orientation":"any",
   "display":"standalone",
