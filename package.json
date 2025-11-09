@@ -1,7 +1,7 @@
 {
   "name": "fitnessapp",
-  "homepage": "https://anz-mikail.github.io/FitnessApp/",
   "private": true,
+  "homepage": "https://anz-mikail.github.io/FitnessApp/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
