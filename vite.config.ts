@@ -9,6 +9,7 @@ import { VitePWA } from "vite-plugin-pwa";
 // const manifest: Partial<ManifestOptions> | false = {
 //   "orientation":"any",
 //   "display":"standalone",
+//   "start_url": "/index.html",
 //   "lang":"ru-RU",
 //   "name":"Fitness App",
 //   "theme_color":"#10100f",
@@ -47,6 +48,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       workbox: {globPatterns: ["**/*.{js,ts,tsx, html, css, ico, png, svg}"],},
+      // manifest: manifest,
     })
   ],
 })
