@@ -17,7 +17,7 @@ function App() {
                     Установить приложение
                 </button>
             )}
-            <h1>PWA приложение test_branch</h1>
+            <h1>PWA приложение test_branch new branch 1111</h1>
             <button onClick={clickUp}>+</button>
             {counter}
             <button onClick={clickDown}>-</button>
